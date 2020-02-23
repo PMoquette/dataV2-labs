@@ -1,0 +1,38 @@
+*"Clean" variable naming:
+
+Lower case
+Use _ to separate words
+Consistency: lower case functions
+
+From PEP 8 -- Style Guide for Python Code:
+
+"Function names should be lowercase, with words separated by underscores as necessary to improve readability.
+Variable names follow the same convention as function names."
+
+
+*Meaningful "object" naming:
+
+Think of function, description, and how variable relates to rest of the code. 
+Start with narrow description, moving towards more broad descriptions: "measured_height_value," for example. 
+Avoid technical type information in the object name. 
+
+From https://subscription.packtpub.com/book/application_development/9781786469250/1/ch01lvl1sec8/creating-meaningful-names-and-using-variables: 
+
+"When creating a descriptive variable, we want to create names that are both specific and articulate the relationships among things in our programs. One widely used technique is to create longer names in a style that moves from particular to general."
+
+*Blank spaces:
+
+From https://realpython.com/python-pep8/#code-layout
+
+"Surround top-level functions and classes with two blank lines."
+"Surround method definitions inside classes with a single blank line."
+"Use blank lines sparingly inside functions to show clear steps."
+
+
+
+*Indentation:
+
+
+*Comments: 
+
+Use '''method for multi-line comments, having the closing ''' on a separate line. 
