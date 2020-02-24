@@ -47,16 +47,17 @@ Spotify Music	878563,
 Angry Birds	824451
 
 ## 6. Find the top 10 apps best rated by users. ## 
-
+:) Sudoku+, King of Dragon Pass, TurboScan Pro, Plants vs. Zombies, Learn to Speak Spanish Fast, Plants vs. Zombies HD, The Photographer's Ephemaris, Sudoku +, Flashlight, Infinity Blade
 
 ## 7. Take a look at the data you retrieved in question 5. Give some insights. ## 
-
+None of the apps listed in Q5 (top 10 most rated by users) are in the top 10 highest rated apps list. Overall user rating doesn't drop below 3.5, whereas lowest ver rating is 3. Four of the 10 most rated apps are Games. 
 
 ## 8. Take a look at the data you retrieved in question 6. Give some insights. ## 
-
+None of the apps listed in Q6 (best rated apps) are in the list at Q5 (most rated apps). In fact, many of the best rated apps have a low number of reviews. Ratings for all are 5. 
 
 ## 9. Now compare the data from questions 5 and 6. What do you see? ##
-
+Best rated apps: 
+Most rated apps:
 
 ## 10. How could you take the top 3 regarding both user ratings and number of votes? ##
 
