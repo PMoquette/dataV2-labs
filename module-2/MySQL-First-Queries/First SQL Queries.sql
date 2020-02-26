@@ -35,4 +35,38 @@ FROM `app`
 ORDER BY `user_rating` DESC
 LIMIT 10;
 
-	
+/* Some Queries: find out whether users care about price. Perhaps look at avg rating of paid apps vs unpaid apps? */
+
+SELECT track_name, prime_genre, price, user_rating 
+From app
+WHERE price>0
+GROUP BY track_name, prime_genre, price, user_rating
+ORDER BY user_rating DESC;
+ 
+SELECT AVG(user_rating)
+FROM app
+WHERE price>0;
+/*3.720948742438714*/
+
+SELECT AVG(user_rating)
+FROM app
+WHERE price=0;
+/*3.3767258382642997*/
+
+
+/* Or look at how many ratings unpaid vs paid apps receive */ 
+
+SELECT track_name, prime_genre, price, rating_count_tot
+From app
+WHERE price>0
+ORDER BY rating_count_tot DESC;
+
+SELECT AVG(rating_count_tot)
+FROM app
+WHERE price>0;
+/* 4038.5371 */
+
+SELECT AVG(rating_count_tot)
+FROM app
+WHERE price=0;
+/*19749.8047*/
