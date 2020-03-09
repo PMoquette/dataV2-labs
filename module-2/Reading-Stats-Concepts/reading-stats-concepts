@@ -1,0 +1,25 @@
+# Reading statistical concepts
+
+### Challenge 1: What is the difference between expected value and mean?
+
+"The concept of expectation value or expected value may be understood from the following example. Let 𝑋 represent the outcome of a roll of an unbiased six-sided die. The possible values for 𝑋 are 1, 2, 3, 4, 5, and 6, each having the probability of occurrence of 1/6. The expectation value (or expected value) of 𝑋 is then given by
+
+(𝑋)expected=1(1/6)+2⋅(1/6)+3⋅(1/6)+4⋅(1/6)+5⋅(1/6)+6⋅(1/6)=21/6=3.5
+Suppose that in a sequence of ten rolls of the die, if the outcomes are 5, 2, 6, 2, 2, 1, 2, 3, 6, 1, then the average (arithmetic mean) of the results is given by
+
+(𝑋)average=(5+2+6+2+2+1+2+3+6+1)/10=3.0
+We say that the average value is 3.0, with the distance of 0.5 from the expectation value of 3.5. If we roll the die 𝑁 times, where 𝑁 is very large, then the average will converge to the expected value, i.e.,(𝑋)average=(𝑋)expected. This is evidently because, when 𝑁 is very large each possible value of 𝑋 (i.e. 1 to 6) will occur with equal probability of 1/6, turning the average to the expectation value."
+
+"The distinction is subtle but important:
+
+The average value is a statistical generalization of multiple occurrences of an event (such as the mean time you waited at the checkout the last 10 times you went shopping, or indeed the mean time you will wait at the checkout the next 10 times you go shopping).
+The expected value refers to a single event that will happen in the future (such as the amount of time you expect to wait at the checkout the next time you go shopping - there is a 50% chance it will be longer or shorter than this). The expected value is numerically the same as the average value, but it is a prediction for a specific future occurrence rather than a generalization across multiple occurrences."
+Submitted by: 
+
+[Source](https://math.stackexchange.com/questions/904343/what-is-the-difference-between-average-and-expected-value)
+
+"Expected value is the average value of a random variable over a large number of experiments. A random variable maps numeric values to each possible outcome in an experiment." 
+
+[Source](https://towardsdatascience.com/what-is-expected-value-4815bdbd84de)
+
+So the mean tells us something about an established occurrence, while the expected value says more about what we can expect the outcome of an occurrence will be, based on previous occurrences. 
